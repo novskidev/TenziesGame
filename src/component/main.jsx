@@ -15,7 +15,9 @@ function Main() {
 
   return (
     <main className="w-box h-box flex flex-col items-center rounded-md gap-6 bg-secondary">
-      <h1 className="mt-12 text-center text-3xl font-semibold">Tenzies</h1>
+      <h1 className="mt-12 text-center text-5xl font-semibold font-karla">
+        Tenzies
+      </h1>
       <h4 className="text-center w-3/4 text-2xl">
         Roll until all dice are the same. Click each die to freeze it at its
         current value between rolls.

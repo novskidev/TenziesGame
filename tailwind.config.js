@@ -12,6 +12,9 @@ export default {
       spacing: {
         box: "550px",
       },
+      fontFamily: {
+        karla: ["Itim", `cursive`],
+      },
     },
   },
   plugins: [],
