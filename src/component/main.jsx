@@ -24,7 +24,12 @@ function Main() {
         {randomNumbers.map((item) => (
           <Box key={uuid()} value={item} />
         ))}
-        <button onClick={generateRandom}>Roll dice</button>
+        <button
+          className="text-white text-lg rounded bg-primary2 py-2 px-4"
+          onClick={generateRandom}
+        >
+          {randomNumbers.length === 0 ? "Start" : "Roll"}
+        </button>
       </div>
     </main>
   );
